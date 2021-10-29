@@ -1,0 +1,27 @@
+Notes:
+When making a website be sure that the label comes before the 
+input.
+Make sure when using css style sheets, make sure you add the div class
+
+Lecture Notes: 10-28-2021
+1. Just spend time trying to get to the root cause of the problem 
+and take small breaks.
+2. When working on something test it frequently or else it won't 
+work lol
+3..,# class  selectors
+#id class
+hex code color codes are pretty useful
+
+Box model
+priority system where elements are listed by importance. 
+If we have header and footer. we can pick a 
+certain element by checking their class tag.
+
+But what happens if we have an element with two different section?
+
+we can select it by its id. for instance
+#contact-section {background color: blue;}
+section {background-color: red;}
+
+The more specific it is-the more prioritized it is over 
+the braod section.
