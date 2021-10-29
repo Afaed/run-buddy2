@@ -8,11 +8,11 @@ Lecture Notes: 10-28-2021
 and take small breaks.
 2. When working on something test it frequently or else it won't 
 work lol
+I. Class selectors
 3..,# class  selectors
 #id class
 hex code color codes are pretty useful
 
-Box model
 priority system where elements are listed by importance. 
 If we have header and footer. we can pick a 
 certain element by checking their class tag.
@@ -25,3 +25,38 @@ section {background-color: red;}
 
 The more specific it is-the more prioritized it is over 
 the braod section.
+
+II. Box model
+    Good to make sure things don't overlapp and looks user friendly
+    Consists of 4 elements.
+        1. The intermost value of the Box (content)
+            a. Images will contain the width and height.
+        2.  Padding is whats outside of the content but before the border
+        3. Last one is margin which determines the outside
+        4. Border heighlights the overall outer rim of the border.
+
+Specific commands
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 4px solid rgba(255, 0, 0, 1.0);
+
+III. Positioning
+    1. How we organize positioning and elements.
+    2. Relative: If you want to move them if their position is relative and doesn't influence other elements of the page.
+    position it anywhere.
+    3. Absolute: Not a normal layout for the element-all otehr elements
+    will act like they don't see that element.
+        a. We all start with layer 0
+        b. once they collide they can not touch.
+        c. Absolute means that they will go infront instead of clashing
+        d. removes itself from its ancestor.
+        d. Imp: once you set it it respects the ancestors dimensions.
+    4. Fixed: stays the same :/
+    5. Effects: 
+        a. Top effects vertical position.
+        b. left effects horizontal position.
+        c. z-index effects how the items will overlap.
+IV. Readme
+    1.Mark-downs: how to make it luk good. add it to the daily challenge
