@@ -1,3 +1,4 @@
+
 body {
   /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
@@ -276,4 +277,11 @@ text-align: right;
 
 .contact-info a {
   color: #fce138
+}
+
+.hero-secondary {
+  margin: 20px;
+  background-color: black;
+  font-size: 20px;
+  color: red;
 }
